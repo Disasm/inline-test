@@ -1,0 +1,9 @@
+[target.thumbv7m-none-eabi]
+rustflags = [
+  "-C", "linker=rust-lld",
+  "-C", "link-arg=-Tlink.x",
+  "-C", "linker-plugin-lto",
+]
+
+[build]
+target = "thumbv7m-none-eabi"

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+arm-none-eabi-objdump -d target/thumbv7m-none-eabi/release/inline-test | grep --color -C 3 wfi
