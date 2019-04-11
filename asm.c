@@ -1,4 +1,4 @@
 __attribute__((always_inline))
-void wfi() {
+void wfi_c() {
     __asm__("wfi");
 }
