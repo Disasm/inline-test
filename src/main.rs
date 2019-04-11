@@ -5,7 +5,6 @@ extern crate panic_halt; // you can put a breakpoint on `rust_begin_unwind` to c
 use cortex_m_rt::entry;
 
 extern "C" {
-    #[inline(always)]
     fn wfi();
 }
 
